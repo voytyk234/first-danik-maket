@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Eras Demi ITC", sans-serif;
+  background: #1E1E1E;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  background: url(../img/BackGround.png) top no-repeat;
+  height: 1117px;
+  width: 1739px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.leftside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.leftside__logo {
+  margin-right: 220px;
+}
+.leftside__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 45px;
+}
+
+.nav-item {
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 81px;
+}
+
+.rightside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.rightside__lupa-img {
+  background: url(../img/lupa.png) center no-repeat;
+  height: 32px;
+  width: 32px;
+  padding-right: 30px;
+}
+.rightside__person-img {
+  height: 32px;
+  width: 32px;
+  background: url(../img/person.png) center no-repeat;
+}
+
+.main {
+  margin-top: 150px;
+  padding: 0 115px;
+}
+.main__title-first {
+  font-family: "Eras Bold ITC", sans-serif;
+  font-size: 110px;
+  line-height: 127px;
+  color: #FFFFFF;
+}
+.main__title-second {
+  font-size: 110px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+.main__undertitle {
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 194.39%;
+  margin-top: 40px;
+  opacity: 0.5;
+  font-family: "Eras Light ITC", sans-serif;
+}
+.main__but-container {
+  margin-top: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main__but-play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 256px;
+  height: 88px;
+  background: url(../img/green-but.png) center no-repeat;
+  font-size: 36px;
+  line-height: 194.39%;
+  /* identical to box height, or 70px */
+  color: #000000;
+  margin-right: 33px;
+}
+.main__but-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 3px solid #FFFFFF;
+  border-radius: 44px;
+  width: 198px;
+  height: 88px;
+  font-size: 32px;
+  line-height: 194.39%;
+  /* or 62px */
+  color: #FFFFFF;
+}
